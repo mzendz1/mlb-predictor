@@ -1,4 +1,23 @@
-# MLB Spread Predictor
+# Let me create the required files step by step to avoid indentation issues
+
+# 1. Create requirements.txt
+requirements = """streamlit==1.28.0
+pandas==2.0.3
+numpy==1.24.3
+scikit-learn==1.3.0
+plotly==5.15.0
+requests==2.31.0
+streamlit-autorefresh==0.0.1
+joblib==1.3.2
+"""
+
+with open("requirements.txt", "w") as f:
+    f.write(requirements)
+
+print("✅ Created requirements.txt")
+
+# 2. Create README.md
+readme_content = """# MLB Spread Predictor
 
 An AI-powered web application that analyzes daily MLB games and provides spread betting recommendations.
 
@@ -67,3 +86,9 @@ You can customize the app by:
 ## Disclaimer
 
 This application is for entertainment and educational purposes only. Please bet responsibly and within your means.
+"""
+
+with open("README.md", "w") as f:
+    f.write(readme_content)
+
+print("✅ Created README.md")
