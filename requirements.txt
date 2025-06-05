@@ -1,8 +1,8 @@
-streamlit==1.28.0
+streamlit==1.29.0
 pandas==2.0.3
 numpy==1.24.3
 scikit-learn==1.3.0
-plotly==5.15.0
 requests==2.31.0
-streamlit-autorefresh==0.0.1
-joblib==1.3.2
+plotly==5.17.0
+pybaseball==2.2.4
+mlb-statsapi==1.7.0
